@@ -11,14 +11,14 @@ while True:  # while the following statement is true
         while True:  # while the following statement is true
             count = int(input("Enter the number of tosses to perform:"))  # count value becomes input of number of toss
             break
-# Blank space
+
         while tails + heads < count:  # while heads+tails is less than count entered then
             coin = random.randint(1, 2)  # process random flip
             if coin == 2:  # if 2 was result then
                 heads = heads + 1
             else:
                 tails = tails + 1
-# Blank space
+
         print("Coin tossed", count, "time(s)")  # show output number of requested coin toss(s)
         print("Heads", heads, "time(s)")  # show output number of head(s)
         print("Tails", tails, "time(s)")  # show output number of tail(s)
