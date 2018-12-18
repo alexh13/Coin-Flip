@@ -4,7 +4,7 @@
 # (via keyboard data entry) the number of coin tosses to perform when you run the program, and
 # have the program display the result of each coin toss (that is, "Heads" or "Tails")"
 # Assignment calls for a coin toss program
-# Version 2, everythin put into a function
+# Version 2, everything put into a function
 import random  # import random.randint
 
 
